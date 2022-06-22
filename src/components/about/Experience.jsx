@@ -1,26 +1,44 @@
 import React from "react";
+import {
+  FaBriefcase
+} from "react-icons/fa";
 
 const experienceContent = [
   {
-    year: "   2018 - Present",
-    position: " Web Developer",
-    compnayName: "Envato",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    year: "2022 - present",
+    position: "CI & Build Expert",
+    compnayName: "BMW AG",
+    details: `CI Strategy, Platforms, Efficient development and build`,
   },
   {
-    year: "2013 - 2018",
-    position: " UI/UX Designer",
-    compnayName: "Themeforest",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
+    year: "2018 - 2021",
+    position: "CI Expert",
+    compnayName: "Bosch GmbH",
+    details: `Containerization, CI`,
   },
   {
-    year: "2005 - 2013",
-    position: "Consultant",
-    compnayName: "Videohive",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    year: "2016 - 2018",
+    position: "Software Integration",
+    compnayName: "Bosch GmbH",
+    details: `Development workflows, Repository architecture, CI`,
+  },
+  {
+    year: "2014 - 2015",
+    position: "Working Student",
+    compnayName: "BMW M GmbH",
+    details: `OBD`,
+  },
+  {
+    year: "2013",
+    position: "Bachelor Thesis",
+    compnayName: "Fraunhofer IISB",
+    details: `Inductive Vehicle Charging, μC Programming, Power Electronics`,
+  },
+  {
+    year: "2012 - 2013",
+    position: "Working Student",
+    compnayName: "Fraunhofer IIS",
+    details: `Wireless μC Programming in a real time application`,
   },
 ];
 
@@ -30,8 +48,7 @@ const Experience = () => {
       {experienceContent.map((val, i) => (
         <li key={i}>
           <div className="icon">
-            <img src="img/about/briefcase.png" alt="icon" />
-            <i className="fa fa-briefcase"></i>
+            <FaBriefcase/>
           </div>
           <span className="time open-sans-font text-uppercase">{val.year}</span>
           <h5 className="poppins-font text-uppercase">

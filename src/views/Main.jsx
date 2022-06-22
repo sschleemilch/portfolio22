@@ -139,9 +139,6 @@ const Main = () => {
               ipsum sit nibh amet egestas tellus.
             </p>
           </div>
-          <div className="extra_info">
-            <Address />
-          </div>
           {/* End Address Info */}
           <div className="mainpart">
             <div

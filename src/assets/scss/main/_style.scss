@@ -1056,7 +1056,7 @@ body.dark .loader_line:after {
         max-width: 100%;
       }
       &:not(:last-child) {
-        padding-bottom: 20px;
+        padding-bottom: 5px;
       }
     }
   }
@@ -1094,9 +1094,6 @@ body.dark .loader_line:after {
     border-radius: 50%;
     color: #fff;
     background-color: #34495e;
-    img {
-      filter: invert(1);
-    }
   }
 
   .time {
@@ -2136,6 +2133,7 @@ body.modal {
   height: auto;
   clear: both;
   display: flex;
+  padding-top: 30px;
 }
 .edina_tm_contact .mainpart .left {
   width: 50%;
