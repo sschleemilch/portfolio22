@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+$orange: #df8300;
+
 /*	Copyright (c) 2021 ib-themes
 /*	Author: ib-themes
 /*	This file is made for CURRENT TEMPLATE
@@ -451,7 +453,7 @@ body.dark .loader_line:after {
   height: auto;
   clear: both;
   float: left;
-  border-bottom: 1px solid #cbd3d9;
+  border-bottom: 2px solid #cbd3d9;
   padding: 40px;
   @media screen and (max-width: 1199px) {
     padding: 20px;
@@ -537,7 +539,7 @@ body.dark .loader_line:after {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  border-top: 1px solid #cbd3d9;
+  border-top: 2px solid #cbd3d9;
 }
 .edina_tm_sidebar .author .inner {
   width: 100%;
@@ -566,7 +568,7 @@ body.dark .loader_line:after {
   background-position: center;
   background-size: cover;
   border-radius: 100%;
-  border: 1px solid #34495e;
+  border: 1px solid $orange;
 }
 .edina_tm_sidebar .short {
   padding-left: 13px;
@@ -586,9 +588,6 @@ body.dark .loader_line:after {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-}
-.logo_light {
-  display: none;
 }
 /*---------------------------------------------------*/
 /*	04) EDINA HERO
@@ -874,7 +873,7 @@ body.dark .loader_line:after {
 }
 .progress_inner .background .bar_in {
   height: 100%;
-  background: #34495e;
+  background: $orange;
 
   overflow: hidden;
 }
@@ -944,7 +943,7 @@ body.dark .loader_line:after {
   width: 291px;
   height: 291px;
   border-radius: 100%;
-  background-color: #34495e;
+  background-color: $orange;
 }
 .edina_tm_about .experience .info {
   position: absolute;
@@ -1045,7 +1044,7 @@ body.dark .loader_line:after {
     }
     .value {
       font-weight: 500;
-      color: #34495e;
+      color: $orange;
     }
     li {
       flex: 0 0 50%;
@@ -1078,7 +1077,7 @@ body.dark .loader_line:after {
       top: 0;
       left: 20px;
       bottom: 0;
-      border-left: 1px solid #ddd;
+      border-left: 2px solid #ddd;
     }
   }
 
@@ -1093,7 +1092,7 @@ body.dark .loader_line:after {
     z-index: 1;
     border-radius: 50%;
     color: #fff;
-    background-color: #34495e;
+    background-color: $orange;
   }
 
   .time {
@@ -1110,7 +1109,7 @@ body.dark .loader_line:after {
   h5 {
     font-size: 18px;
     margin: 7px 0 10px;
-    color: #34495e;
+    color: $orange;
   }
 
   p {
@@ -1150,7 +1149,7 @@ body.dark .loader_line:after {
       font-weight: 600;
       border: none;
       padding: 0;
-      color: #34495e;
+      color: $orange;
       @media (max-width: 599px) {
         font-size: 30px;
       }
@@ -1265,7 +1264,7 @@ body.dark .loader_line:after {
     content: "";
     left: 0;
     top: 0;
-    background: #000;
+    background: $color-dark;
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
     width: 100%;
@@ -1844,7 +1843,7 @@ body.dark .loader_line:after {
 }
 .edina_tm_testimonials .owl-theme .owl-dots .owl-dot.active span {
   background-color: transparent;
-  border-color: #34495e;
+  border-color: $orange;
   width: 16px;
   height: 16px;
 }
@@ -1917,7 +1916,7 @@ body.dark .loader_line:after {
 }
 .edina_tm_news ul li .news_details .title {
   text-decoration: none;
-  color: #34495e;
+  color: $orange;
   font-size: 22px;
   font-weight: 700;
   transition: all 0.3s ease;
@@ -2052,7 +2051,7 @@ body.modal {
   .icon {
     width: 55px;
     height: 55px;
-    background: #34495e;
+    background: $orange;
     border-radius: 50%;
     display: flex;
     align-items: center;
