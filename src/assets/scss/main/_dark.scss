@@ -159,7 +159,7 @@ $color-darkest: darken($color-dark, 10%);
     filter: invert(1);
   }
   .edina_tm_contact .right .google-map {
-    border: 5px solid #000;
+    border: 5px solid $color-darkest;
   }
   .progress_inner .background {
     border: 1px solid #555;
@@ -195,13 +195,13 @@ $color-darkest: darken($color-dark, 10%);
     }
   }
 }
-.theme-dark .edina_tm_testimonials {
+.theme-dark .edine_tm_statements {
   background-color: $color-darker;
 }
-.theme-dark .edina_tm_testimonials .list ul li .list_inner {
+.theme-dark .edine_tm_statements .list ul li .list_inner {
   background-color: $color-dark;
 }
-.theme-dark .edina_tm_testimonials .owl-theme .owl-dots .owl-dot.active span {
+.theme-dark .edine_tm_statements .owl-theme .owl-dots .owl-dot.active span {
   background-color: #fff;
   border-color: #fff;
 }

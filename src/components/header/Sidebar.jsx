@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import ScrollspyNav from "react-scrollspy-nav";
 
-
 // sidebar content
 const sidebarContent = [
   { icon: "home", itemName: "Home", itemRoute: "#home", activeClass: "active" },
@@ -14,15 +13,15 @@ const sidebarContent = [
     activeClass: "",
   },
   {
-    icon: "portfolio",
-    itemName: "Portfolio",
-    itemRoute: "#portfolio",
+    icon: "technologies",
+    itemName: "Technologies",
+    itemRoute: "#technologies",
     activeClass: "",
   },
   {
-    icon: "testimonial",
-    itemName: "Testimonial",
-    itemRoute: "#testimonial",
+    icon: "statements",
+    itemName: "Statements",
+    itemRoute: "#statements",
     activeClass: "",
   },
   { icon: "blog", itemName: "Blog", itemRoute: "#blog", activeClass: "" },
@@ -76,7 +75,7 @@ const Sidebar = () => {
                 "home",
                 "about",
                 "service",
-                "portfolio",
+                "technologies",
                 "testimonial",
                 "blog",
                 "contact",

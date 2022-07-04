@@ -67,7 +67,7 @@ const About = () => {
                 className="main"
                 style={{
                   backgroundImage: `url(${
-                    process.env.PUBLIC_URL + "img/about/me_vacation.jpg"
+                    process.env.PUBLIC_URL + "img/about/me_vacation_2.jpg"
                   })`,
                 }}
                 data-aos="fade-left"

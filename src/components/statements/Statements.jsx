@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export default function Testimonial() {
+export default function Statements() {
   var settings = {
     dots: true,
     arrow: false,
@@ -24,7 +24,7 @@ export default function Testimonial() {
     ],
   };
 
-  const testimonialContent = [
+  const statementsContent = [
     {
       img: "1",
       desc: `Hi, I’m Alvara Atkins and I am designer &amp; developer who dream making the world better place by products. I am also very active for international clients.`,
@@ -50,7 +50,7 @@ export default function Testimonial() {
 
   return (
     <Slider {...settings}>
-      {testimonialContent.map((val, i) => (
+      {statementsContent.map((val, i) => (
         <li
           key={i}
           data-aos="fade-right"

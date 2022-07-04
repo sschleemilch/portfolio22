@@ -5,11 +5,10 @@ import Sidebar from "../components/header/Sidebar";
 import Hero from "../components/slider/Hero";
 import About from "../components/about/About";
 import Service from "../components/service/Service";
-import Portfolio from "../components/portfolio/Portfolio";
-import Testimonial from "../components/testimonial/Testimonial";
+import Technologies from "../components/technologies/Technologies";
+import Statements from "../components/statements/Statements";
 import Blog from "../components/blog/Blog";
 import Contact from "../components/Contact";
-import Address from "../components/Address";
 import Map from "../components/Map";
 import HeaderMobile from "../components/header/HeaderMobile";
 
@@ -81,7 +80,7 @@ const Main = () => {
       </div>
       {/* End Services */}
 
-      <div className="edina_tm_portfolio" id="portfolio">
+      <div className="edine_tm_technologies" id="technologies">
         <div className="container">
           <div className="edina_tm_title">
             <h3>Portfolio</h3>
@@ -91,12 +90,12 @@ const Main = () => {
             </p>
           </div>
           {/* End edian_tm_title */}
-          <Portfolio />
+          <Technologies />
         </div>
       </div>
       {/* End Portfolio */}
 
-      <div className="edina_tm_testimonials" id="testimonial">
+      <div className="edine_tm_statements" id="statements">
         <div className="container">
           <div className="edina_tm_title">
             <h3>Testimonials</h3>
@@ -108,7 +107,7 @@ const Main = () => {
           {/* End edian_tm_title */}
           <div className="list ">
             <ul>
-              <Testimonial />
+              <Statements />
             </ul>
           </div>
         </div>
