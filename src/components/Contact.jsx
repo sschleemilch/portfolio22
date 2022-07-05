@@ -61,7 +61,7 @@ const Contact = () => {
         </div>
         {/* End .third */}
 
-        <div className="edina_tm_button">
+        <div className="button">
           <button type="submit" className="color">
             Submit
           </button>

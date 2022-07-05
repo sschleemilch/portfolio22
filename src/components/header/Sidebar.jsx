@@ -56,7 +56,7 @@ const Sidebar = () => {
       </div>
       {/* End Mobile Header */}
       <div
-        className={click ? "edina_tm_sidebar menu-open" : "edina_tm_sidebar"}
+        className={click ? "sidebar menu-open" : "sidebar"}
       >
         <div className="sidebar_inner">
           <div className="logo">

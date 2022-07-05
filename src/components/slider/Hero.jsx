@@ -12,7 +12,7 @@ const heroContent = {
 const Hero = () => {
   return (
     //    HERO
-    <div className="edina_tm_hero" id="home">
+    <div className="hero" id="home">
       <div className="content">
         <div className="img-shape" data-aos="fade-up" data-aos-duration="1200">
           <img
@@ -71,7 +71,7 @@ const Hero = () => {
             <Social />
           </div>
           <div
-            className="edina_tm_button"
+            className="button"
             data-aos="fade-up"
             data-aos-duration="1200"
             data-aos-delay="500"

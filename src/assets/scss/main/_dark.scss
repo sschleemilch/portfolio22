@@ -32,11 +32,11 @@ $color-darkest: darken($color-dark, 10%);
 .theme-dark h5 {
   color: #fff !important;
 }
-.theme-dark .edina_tm_mobile_menu .mobile_menu_inner {
+.theme-dark .mobile_menu .mobile_menu_inner {
   background-color: $color-darker;
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.08%);
 }
-.theme-dark .edina_tm_mobile_menu .dropdown {
+.theme-dark .mobile_menu .dropdown {
   background-color: $color-darkest;
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.08%);
 }
@@ -45,86 +45,86 @@ $color-darkest: darken($color-dark, 10%);
 .theme-dark .my_trigger .hamburger .hamburger-inner {
   background-color: #fff;
 }
-.theme-dark .edina_tm_mobile_menu .dropdown .dropdown_inner ul li a {
+.theme-dark .mobile_menu .dropdown .dropdown_inner ul li a {
   color: #c1c1c2;
 }
 
-.theme-dark .edina_tm_hero {
+.theme-dark .hero {
   background-color: $color-darker;
 }
-.theme-dark .edina_tm_hero .image:before {
+.theme-dark .hero .image:before {
   background-color: $color-darker;
 }
-.theme-dark .edina_tm_hero .social ul li .svg {
+.theme-dark .hero .social ul li .svg {
   color: #c1c1c2;
 }
-.theme-dark .edina_tm_hero .social ul li .svg.custom {
+.theme-dark .hero .social ul li .svg.custom {
   stroke: #c1c1c2;
 }
-.theme-dark .edina_tm_hero .social ul li a:hover .svg {
+.theme-dark .hero .social ul li a:hover .svg {
   color: #fff;
 }
-.theme-dark .edina_tm_hero .social ul li a:hover .svg.custom {
+.theme-dark .hero .social ul li a:hover .svg.custom {
   stroke: #fff;
 }
-.theme-dark .edina_tm_sidebar {
+.theme-dark .sidebar {
   background-color: #000;
   box-shadow: none;
 }
-.theme-dark .edina_tm_sidebar .logo {
+.theme-dark .sidebar .logo {
   border-bottom-color: $color-darker;
 }
-.theme-dark .edina_tm_sidebar .author {
+.theme-dark .sidebar .author {
   border-top-color: $color-darker;
 }
-.theme-dark .edina_tm_sidebar .menu ul li .list_inner.current a:before {
+.theme-dark .sidebar .menu ul li .list_inner.current a:before {
   background-color: $color-darker;
 }
-.theme-dark .edina_tm_sidebar .menu ul li .list_inner a:before {
+.theme-dark .sidebar .menu ul li .list_inner a:before {
   background-color: $color-darker;
 }
-.theme-dark .edina_tm_sidebar .menu ul li .list_inner a {
+.theme-dark .sidebar .menu ul li .list_inner a {
   color: #fff;
 }
-.theme-dark .edina_tm_sidebar .menu ul li .svg {
+.theme-dark .sidebar .menu ul li .svg {
   color: $color-darker;
 }
 
-.theme-dark .edina_tm_sidebar .menu ul li .svg.custom {
+.theme-dark .sidebar .menu ul li .svg.custom {
   filter: invert(1);
 }
-.theme-dark .edina_tm_sidebar .menu ul li a:hover .svg {
+.theme-dark .sidebar .menu ul li a:hover .svg {
   color: #fff;
 }
-.theme-dark .edina_tm_sidebar .menu ul li a:hover .svg.custom {
+.theme-dark .sidebar .menu ul li a:hover .svg.custom {
   stroke: #fff;
 }
-.theme-dark .edina_tm_sidebar .menu ul li .list_inner.current .svg {
+.theme-dark .sidebar .menu ul li .list_inner.current .svg {
   color: #fff;
 }
-.theme-dark .edina_tm_sidebar .menu ul li .list_inner.current .svg.custom {
+.theme-dark .sidebar .menu ul li .list_inner.current .svg.custom {
   stroke: #fff;
 }
 .theme-dark .progress_inner .label {
   color: #fff;
 }
-.theme-dark .edina_tm_services {
+.theme-dark .services {
   background-color: $color-darker;
 }
-.theme-dark .edina_tm_services ul li .list_inner {
+.theme-dark .services ul li .list_inner {
   background-color: $color-dark;
 }
 .theme-dark.light {
   background: #fff;
 }
-.theme-dark .edina_tm_services ul li .svg.custom {
+.theme-dark .services ul li .svg.custom {
   filter: invert(1);
 }
-.theme-dark .edina_tm_services ul li h3 {
+.theme-dark .services ul li h3 {
   color: #fff;
 }
 
-.theme-dark .edina_tm_services ul li .learn_more {
+.theme-dark .services ul li .learn_more {
   color: #c1c1c2;
 }
 .theme-dark .my_carousel ul .details span a {
@@ -133,7 +133,7 @@ $color-darkest: darken($color-dark, 10%);
 .theme-dark .my_carousel ul .details h3 {
   color: #fff;
 }
-.theme-dark .edina_tm_hero .social ul li a {
+.theme-dark .hero .social ul li a {
   svg {
     color: #c1c1c2;
   }
@@ -148,23 +148,23 @@ $color-darkest: darken($color-dark, 10%);
 }
 
 .theme-dark {
-  .edina_tm_hero .social ul li a {
+  .hero .social ul li a {
     &:hover {
       svg {
         color: #fff;
       }
     }
   }
-  .edina_tm_contact .right .google-map iframe {
+  .contact .right .google-map iframe {
     filter: invert(1);
   }
-  .edina_tm_contact .right .google-map {
+  .contact .right .google-map {
     border: 5px solid $color-darkest;
   }
   .progress_inner .background {
     border: 1px solid #555;
   }
-  .edina_tm_about .color:hover {
+  .about .color:hover {
     background: transparent;
     border-color: #fff;
   }
@@ -188,41 +188,41 @@ $color-darkest: darken($color-dark, 10%);
   .toggler-menu {
     background: #fff;
   }
-  .edina_tm_contact .edina_tm_button button {
+  .contact .button button {
     border-color: #fff;
     &:hover {
       border-color: #fff;
     }
   }
 }
-.theme-dark .edine_tm_statements {
+.theme-dark .statements {
   background-color: $color-darker;
 }
-.theme-dark .edine_tm_statements .list ul li .list_inner {
+.theme-dark .statements .list ul li .list_inner {
   background-color: $color-dark;
 }
-.theme-dark .edine_tm_statements .owl-theme .owl-dots .owl-dot.active span {
+.theme-dark .statements .owl-theme .owl-dots .owl-dot.active span {
   background-color: #fff;
   border-color: #fff;
 }
-.theme-dark .edina_tm_news ul li .news_details span a {
+.theme-dark .news ul li .news_details span a {
   color: #c1c1c2;
 }
-.theme-dark .edina_tm_news ul li .news_details .title {
+.theme-dark .news ul li .news_details .title {
   color: #fff;
 }
 
-.theme-dark .edina_tm_contact {
+.theme-dark .contact {
   background-color: $color-darker;
 }
 
-.theme-dark .edina_tm_contact .extra_info .wrapper > li .list_inner {
+.theme-dark .contact .extra_info .wrapper > li .list_inner {
   background-color: $color-dark;
 }
-.theme-dark .edina_tm_contact .mainpart .left {
+.theme-dark .contact .mainpart .left {
   background-color: $color-dark;
 }
-.theme-dark .edina_tm_button a {
+.theme-dark .button a {
   border-color: #c1c1c2;
   color: #fff;
 }
@@ -233,91 +233,91 @@ $color-darkest: darken($color-dark, 10%);
   border-left: 2px solid rgba(169, 175, 195, 0.5);
 }
 
-.theme-dark .edina_tm_button a:hover {
+.theme-dark .button a:hover {
   border-color: #fff;
   background-color: #fff;
   color: $color-darkest;
 }
 
-.theme-dark .edina_tm_modalbox .popup_informations h3 {
+.theme-dark .modalbox .popup_informations h3 {
   color: #fff;
 }
-.theme-dark .edina_tm_modalbox .news_details span a {
+.theme-dark .modalbox .news_details span a {
   color: #c1c1c2;
 }
-.theme-dark .edina_tm_modalbox .news_details span a:before {
+.theme-dark .modalbox .news_details span a:before {
   color: #c1c1c2;
 }
-.theme-dark .edina_tm_modalbox .news_details .title a {
+.theme-dark .modalbox .news_details .title a {
   color: #fff;
 }
 
-.theme-dark .edina_tm_modalbox .main_content .quotebox p {
+.theme-dark .modalbox .main_content .quotebox p {
   border-left-color: #fff;
 }
-.theme-dark .edina_tm_contact .mainpart .left .title span {
+.theme-dark .contact .mainpart .left .title span {
   color: #fff;
 }
-.theme-dark .edina_tm_modalbox .description_wrap::-webkit-scrollbar {
+.theme-dark .modalbox .description_wrap::-webkit-scrollbar {
   width: 11px;
 }
-.theme-dark .edina_tm_modalbox .description_wrap {
+.theme-dark .modalbox .description_wrap {
   scrollbar-width: thin;
   scrollbar-color: #333 #111;
 }
-.theme-dark .edina_tm_modalbox .description_wrap::-webkit-scrollbar-track {
+.theme-dark .modalbox .description_wrap::-webkit-scrollbar-track {
   background: #111;
 }
-.theme-dark .edina_tm_modalbox .description_wrap::-webkit-scrollbar-thumb {
+.theme-dark .modalbox .description_wrap::-webkit-scrollbar-thumb {
   background-color: #333;
   border-radius: 6px;
   border: 3px solid #111;
 }
-.theme-dark .edina_tm_modalbox .box_inner {
+.theme-dark .modalbox .box_inner {
   background-color: $color-dark;
 }
-.theme-dark .edina_tm_modalbox .description_wrap {
+.theme-dark .modalbox .description_wrap {
   background: $color-dark;
 }
-.theme-dark .edina_tm_modalbox .about-list .value {
+.theme-dark .modalbox .about-list .value {
   color: #fff;
 }
-.theme-dark .edina_tm_modalbox .resume-box .place:before {
+.theme-dark .modalbox .resume-box .place:before {
   background-color: #eee;
   opacity: 0.8;
 }
-.theme-dark .edina_tm_modalbox .achievements-wrapper .box-stats p::before {
+.theme-dark .modalbox .achievements-wrapper .box-stats p::before {
   background: #999;
 }
-.theme-dark .edina_tm_modalbox .achievements-wrapper .box-stats h3 {
+.theme-dark .modalbox .achievements-wrapper .box-stats h3 {
   color: #fff;
 }
-.theme-dark .edina_tm_modalbox .main_content .quotebox p {
+.theme-dark .modalbox .main_content .quotebox p {
   color: #fff;
 }
-.theme-dark .edina_tm_modalbox .main_content .descriptions .bigger {
+.theme-dark .modalbox .main_content .descriptions .bigger {
   color: #c1c1c2;
 }
-.theme-dark .edina_tm_contact input {
+.theme-dark .contact input {
   border-bottom-color: rgba(169, 175, 195, 0.5);
 }
-.theme-dark .edina_tm_contact input:focus {
+.theme-dark .contact input:focus {
   border-bottom-color: rgba(169, 175, 195, 1);
 }
-.theme-dark .edina_tm_contact textarea {
+.theme-dark .contact textarea {
   border-bottom-color: rgba(169, 175, 195, 0.5);
 }
-.theme-dark .edina_tm_contact textarea:focus {
+.theme-dark .contact textarea:focus {
   border-bottom-color: rgba(169, 175, 195, 1);
 }
-.theme-dark .edina_tm_contact .extra_info a {
+.theme-dark .contact .extra_info a {
   color: #c1c1c2;
 }
 .theme-dark .resume-box .time {
   color: #fff;
   background-color: $color-dark;
 }
-.theme-dark .edina_tm_intro .go_purchase .edina_tm_button a {
+.theme-dark .intro .go_purchase .button a {
   &:hover {
     background: #1473e6;
     color: #fff;

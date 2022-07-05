@@ -30,7 +30,7 @@ const Main = () => {
 
   return (
     <div
-      className={`home-light edina_tm_mainpart ${isDark ? "theme-dark" : ""}`}
+      className={`home-light mainpart ${isDark ? "theme-dark" : ""}`}
     >
       {/* Start Dark & Light Mode Swicher  */}
       <label
@@ -65,9 +65,9 @@ const Main = () => {
       <About />
       {/* End Hero */}
 
-      <div className="edina_tm_services" id="service">
+      <div className="services" id="service">
         <div className="container">
-          <div className="edina_tm_title">
+          <div className="title">
             <h3>What I Do</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -80,9 +80,9 @@ const Main = () => {
       </div>
       {/* End Services */}
 
-      <div className="edine_tm_technologies" id="technologies">
+      <div className="technologies" id="technologies">
         <div className="container">
-          <div className="edina_tm_title">
+          <div className="title">
             <h3>Portfolio</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -95,9 +95,9 @@ const Main = () => {
       </div>
       {/* End Portfolio */}
 
-      <div className="edine_tm_statements" id="statements">
+      <div className="statements" id="statements">
         <div className="container">
-          <div className="edina_tm_title">
+          <div className="title">
             <h3>Testimonials</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -114,9 +114,9 @@ const Main = () => {
       </div>
       {/* End Testimonial */}
 
-      <div className="edina_tm_news" id="blog">
+      <div className="news" id="blog">
         <div className="container">
-          <div className="edina_tm_title">
+          <div className="title">
             <h3>Blog</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -129,9 +129,9 @@ const Main = () => {
       </div>
       {/* End Blog */}
 
-      <div className="edina_tm_contact" id="contact">
+      <div className="contact" id="contact">
         <div className="container">
-          <div className="edina_tm_title">
+          <div className="title">
             <h3>Contact</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris

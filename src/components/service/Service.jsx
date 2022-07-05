@@ -112,7 +112,7 @@ const Service = () => {
         overlayClassName="custom-overlay"
         closeTimeoutMS={500}
       >
-        <div className="edina_tm_modalbox">
+        <div className="modalbox">
           <button className="close-modal" onClick={toggleModalOne}>
             <img src="/img/svg/cancel.svg" alt="close icon" />
           </button>
@@ -138,7 +138,7 @@ const Service = () => {
         overlayClassName="custom-overlay"
         closeTimeoutMS={500}
       >
-        <div className="edina_tm_modalbox">
+        <div className="modalbox">
           <button className="close-modal" onClick={toggleModalTwo}>
             <img src="/img/svg/cancel.svg" alt="close icon" />
           </button>
@@ -164,7 +164,7 @@ const Service = () => {
         overlayClassName="custom-overlay"
         closeTimeoutMS={500}
       >
-        <div className="edina_tm_modalbox">
+        <div className="modalbox">
           <button className="close-modal" onClick={toggleModalThree}>
             <img src="/img/svg/cancel.svg" alt="close icon" />
           </button>
@@ -190,7 +190,7 @@ const Service = () => {
         overlayClassName="custom-overlay"
         closeTimeoutMS={500}
       >
-        <div className="edina_tm_modalbox">
+        <div className="modalbox">
           <button className="close-modal" onClick={toggleModalFour}>
             <img src="/img/svg/cancel.svg" alt="close icon" />
           </button>

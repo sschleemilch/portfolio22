@@ -1,4 +1,4 @@
-# Edina Personal Portfolio React Template
+# Personal Portfolio built with React
 
 ## Description
 Setup Procedure
