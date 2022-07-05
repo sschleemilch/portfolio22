@@ -70,8 +70,7 @@ const Main = () => {
           <div className="title">
             <h3>What I Do</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              What I am tinkering with on a daily basis
             </p>
           </div>
           {/* End edian_tm_title */}
@@ -83,10 +82,9 @@ const Main = () => {
       <div className="technologies" id="technologies">
         <div className="container">
           <div className="title">
-            <h3>Portfolio</h3>
+            <h3>Technologies</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              A incomplete list of technologies I am working with in depth.
             </p>
           </div>
           {/* End edian_tm_title */}
@@ -98,10 +96,9 @@ const Main = () => {
       <div className="statements" id="statements">
         <div className="container">
           <div className="title">
-            <h3>Testimonials</h3>
+            <h3>Statements</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              Short statements about facts and antipatterns that occured to me over the years.
             </p>
           </div>
           {/* End edian_tm_title */}
@@ -119,8 +116,7 @@ const Main = () => {
           <div className="title">
             <h3>Blog</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              Things I wanted to write down and might be helpful for others fighting with similar problems.
             </p>
           </div>
           {/* End edian_tm_title */}
@@ -134,8 +130,7 @@ const Main = () => {
           <div className="title">
             <h3>Contact</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              Feel free to contact me in case of professional interest, offers or just to have a chat.
             </p>
           </div>
           {/* End Address Info */}
