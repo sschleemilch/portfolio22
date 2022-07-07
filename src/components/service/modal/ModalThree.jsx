@@ -17,47 +17,19 @@ const ModalThree = () => {
       {/* End big image */}
 
       <div className="description">
-        <h3>Mobile App Design Breakdown In Cinema 4D</h3>
+        <h3>Efficient Development Environment</h3>
         <p>
-          Just because we can't get out and about like we normally would,
-          doesn’t mean we have to taking pictures. There’s still plenty you can
-          do, provided you're prepared to use some imagination. Here are a few
-          ideas to keep you shooting until normal life resumes.
+          With more and more complex products it is important to have your tools under control.
+          When working on more than one product or repository it is importing to sandbox those environments
+          and make it easy and lightweight to switch from one to another, having always the right tools and their versions at hand
+          when starting to develop a new feature.
+          So I am looking into technologies like Container based Development Environments to prepare a well defined environment
+          including all the tools in their right version on every branch and repository you check out.
         </p>
         <p>
-          Most photographers love to shoot the unusual, and you don’t get much
-          more unusual than These Unprecedented Times. Right now everything
-          counts as out of the ordinary. There are a number of remarkable things
-          about these lockdown days that are worth photographing now we can
-          remember them when it is all over.
-        </p>
-        <h3>What Is Branding?</h3>
-        <p>
-          Nullam blandit constituto eam ne, te nam ignota vituper.atoribus.
-          Malis cetero quem saipe, prou thendrerit voluptaria.
-        </p>
-        <div className="in_list">
-          <ul>
-            <li>
-              <p>Email is a crucial channel in any marketing.</p>
-            </li>
-            <li>
-              <p>Curious what to say? How to say it?</p>
-            </li>
-            <li>
-              <p>Whether you’re kicking off a new ca mpaign.</p>
-            </li>
-            <li>
-              <p>Habitasse per feugiat aliquam luctus accumsan curae</p>
-            </li>
-          </ul>
-        </div>
-        <p>
-          Streets empty that are usually busy are remarkable and can evoke the
-          sense of historical pictures from before the invention of the
-          motorcar. Other things that are different at the moment will be queues
-          to get into stores and the lines marked out on the floor to show how
-          far apart we should be.
+          This way you are very close if not in the same environment the Continuous Integration environment uses to build the product,
+          which will eliminate a lot of "works on my machine" effects. This tremendously reduces debugging and helps to build better products.
+          It also reduces the startup time for new developers and saves time for everyone taking care about configuring their environments.
         </p>
       </div>
     </div>

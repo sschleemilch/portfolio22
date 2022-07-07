@@ -9,7 +9,7 @@ const ModalOne = () => {
           className="main"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/service/1.jpg"
+              process.env.PUBLIC_URL + "img/service/continuous_integration.jpg"
             })`,
           }}
         ></div>
@@ -17,48 +17,32 @@ const ModalOne = () => {
       {/* End big image */}
 
       <div className="description">
-        <h3>Motion Graphic Breakdown In Cinema 4D</h3>
+        <h3>Large Scale Continuous Integration</h3>
         <p>
-          Just because we can't get out and about like we normally would,
-          doesn’t mean we have to taking pictures. There’s still plenty you can
-          do, provided you're prepared to use some imagination. Here are a few
-          ideas to keep you shooting until normal life resumes.
-        </p>
-        <p>
-          Most photographers love to shoot the unusual, and you don’t get much
-          more unusual than These Unprecedented Times. Right now everything
-          counts as out of the ordinary. There are a number of remarkable things
-          about these lockdown days that are worth photographing now we can
-          remember them when it is all over.
-        </p>
-        <h3>What Is Branding?</h3>
-        <p>
-          Nullam blandit constituto eam ne, te nam ignota vituper.atoribus.
-          Malis cetero quem saipe, prou thendrerit voluptaria.
+          Modern Software Development is complex since code bases getting larger and larger.
+          For large projects like in the Autonomous Software Development that also means a lot of Developers.
+          I am taking up the challenge to think about concepts how to develop code together efficiently.
+          That includes:
         </p>
         <div className="in_list">
           <ul>
             <li>
-              <p>Email is a crucial channel in any marketing.</p>
+              <p>How does the source code development workflow look like? How long should the branches ideally live?</p>
             </li>
             <li>
-              <p>Curious what to say? How to say it?</p>
+              <p>How do we do releases? Where do we branch off? How do we bring back bugfixes?</p>
             </li>
             <li>
-              <p>Whether you’re kicking off a new ca mpaign.</p>
-            </li>
-            <li>
-              <p>Habitasse per feugiat aliquam luctus accumsan curae</p>
+              <p>What should be tested when creating Pull-Requests?</p>
             </li>
           </ul>
         </div>
-        {/* End list */}
+        <h3>Optimizing the whole workflow</h3>
         <p>
-          Streets empty that are usually busy are remarkable and can evoke the
-          sense of historical pictures from before the invention of the
-          motorcar. Other things that are different at the moment will be queues
-          to get into stores and the lines marked out on the floor to show how
-          far apart we should be.
+          No matter what kind of repository strategy one is going with (Multi vs Monorepo), 
+          you want to optimize wherever you can. That includes testing the right things based on the
+          changeset that has been introduced. Starting with simple file type filters going into
+          querying the build system what kind of build targets need to be built and tested 
         </p>
       </div>
     </div>

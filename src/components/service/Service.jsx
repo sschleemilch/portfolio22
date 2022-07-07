@@ -30,14 +30,14 @@ const Service = () => {
   return (
     <div className="service_list">
       <ul>
-        {/* Start Service Motion & Web Graphy */}
+        {/* Start Continuous Integration */}
         <li data-aos="fade-right" data-aos-duration="1200">
           <Tilt>
             <div className="list_inner" onClick={toggleModalOne}>
               <div className="hover">
-                <img className="svg custom" src="img/svg/1.svg" alt="" />
+                <img className="svg custom" src="img/svg/git-branch.svg" alt="" />
                 <div className="service_title">
-                  <h3>Motion & Web Graphy</h3>
+                  <h3>Large Scale Continuous Integration</h3>
                 </div>
                 <div className="learn_more">
                   Learn More<span></span>
@@ -46,16 +46,16 @@ const Service = () => {
             </div>
           </Tilt>
         </li>
-        {/* End Service Motion & Web Graphy */}
+        {/* End Continuous Integration */}
 
         {/* Start Service Ui/Ux Consultancy */}
         <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100">
           <Tilt>
             <div className="list_inner" onClick={toggleModalTwo}>
               <div className="hover">
-                <img className="svg custom" src="img/svg/2.svg" alt="" />
+                <img className="svg custom" src="img/svg/server.svg" alt="" />
                 <div className="service_title">
-                  <h3>Ui/Ux Consultancy</h3>
+                  <h3>Build Infrastructure</h3>
                 </div>
                 <div className="learn_more">
                   Learn More<span></span>
@@ -71,9 +71,9 @@ const Service = () => {
           <Tilt>
             <div className="list_inner" onClick={toggleModalThree}>
               <div className="hover">
-                <img className="svg custom" src="img/svg/3.svg" alt="" />
+                <img className="svg custom" src="img/svg/development.svg" alt="" />
                 <div className="service_title">
-                  <h3>Branding &amp; Design</h3>
+                  <h3>Efficient Development Environment</h3>
                 </div>
                 <div className="learn_more">
                   Learn More<span></span>
